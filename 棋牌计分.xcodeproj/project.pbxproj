@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0839B991B33ED8800F3F64E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0839B981B33ED8800F3F64E /* AppDelegate.swift */; };
+		C0839B9B1B33ED8800F3F64E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0839B9A1B33ED8800F3F64E /* ViewController.swift */; };
+		C0839B9E1B33ED8800F3F64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0839B9C1B33ED8800F3F64E /* Main.storyboard */; };
+		C0839BA01B33ED8800F3F64E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0839B9F1B33ED8800F3F64E /* Images.xcassets */; };
+		C0839BA31B33ED8800F3F64E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0839BA11B33ED8800F3F64E /* LaunchScreen.xib */; };
+		C0839BAF1B33ED8800F3F64E /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0839BAE1B33ED8800F3F64E /* ____Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0839BA91B33ED8800F3F64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0839B8B1B33ED8800F3F64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0839B921B33ED8800F3F64E;
+			remoteInfo = "棋牌计分";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0839B931B33ED8800F3F64E /* 棋牌计分.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "棋牌计分.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0839B971B33ED8800F3F64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0839B981B33ED8800F3F64E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0839B9A1B33ED8800F3F64E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0839B9D1B33ED8800F3F64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0839B9F1B33ED8800F3F64E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0839BA21B33ED8800F3F64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0839BA81B33ED8800F3F64E /* 棋牌计分Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "棋牌计分Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0839BAD1B33ED8800F3F64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0839BAE1B33ED8800F3F64E /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0839B901B33ED8800F3F64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0839BA51B33ED8800F3F64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0839B8A1B33ED8800F3F64E = {
+			isa = PBXGroup;
+			children = (
+				C0839B951B33ED8800F3F64E /* 棋牌计分 */,
+				C0839BAB1B33ED8800F3F64E /* 棋牌计分Tests */,
+				C0839B941B33ED8800F3F64E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0839B941B33ED8800F3F64E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0839B931B33ED8800F3F64E /* 棋牌计分.app */,
+				C0839BA81B33ED8800F3F64E /* 棋牌计分Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0839B951B33ED8800F3F64E /* 棋牌计分 */ = {
+			isa = PBXGroup;
+			children = (
+				C0839B981B33ED8800F3F64E /* AppDelegate.swift */,
+				C0839B9A1B33ED8800F3F64E /* ViewController.swift */,
+				C0839B9C1B33ED8800F3F64E /* Main.storyboard */,
+				C0839B9F1B33ED8800F3F64E /* Images.xcassets */,
+				C0839BA11B33ED8800F3F64E /* LaunchScreen.xib */,
+				C0839B961B33ED8800F3F64E /* Supporting Files */,
+			);
+			path = "棋牌计分";
+			sourceTree = "<group>";
+		};
+		C0839B961B33ED8800F3F64E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0839B971B33ED8800F3F64E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0839BAB1B33ED8800F3F64E /* 棋牌计分Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0839BAE1B33ED8800F3F64E /* ____Tests.swift */,
+				C0839BAC1B33ED8800F3F64E /* Supporting Files */,
+			);
+			path = "棋牌计分Tests";
+			sourceTree = "<group>";
+		};
+		C0839BAC1B33ED8800F3F64E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0839BAD1B33ED8800F3F64E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0839B921B33ED8800F3F64E /* 棋牌计分 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0839BB21B33ED8800F3F64E /* Build configuration list for PBXNativeTarget "棋牌计分" */;
+			buildPhases = (
+				C0839B8F1B33ED8800F3F64E /* Sources */,
+				C0839B901B33ED8800F3F64E /* Frameworks */,
+				C0839B911B33ED8800F3F64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "棋牌计分";
+			productName = "棋牌计分";
+			productReference = C0839B931B33ED8800F3F64E /* 棋牌计分.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0839BA71B33ED8800F3F64E /* 棋牌计分Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0839BB51B33ED8800F3F64E /* Build configuration list for PBXNativeTarget "棋牌计分Tests" */;
+			buildPhases = (
+				C0839BA41B33ED8800F3F64E /* Sources */,
+				C0839BA51B33ED8800F3F64E /* Frameworks */,
+				C0839BA61B33ED8800F3F64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0839BAA1B33ED8800F3F64E /* PBXTargetDependency */,
+			);
+			name = "棋牌计分Tests";
+			productName = "棋牌计分Tests";
+			productReference = C0839BA81B33ED8800F3F64E /* 棋牌计分Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0839B8B1B33ED8800F3F64E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Myth;
+				TargetAttributes = {
+					C0839B921B33ED8800F3F64E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C0839BA71B33ED8800F3F64E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C0839B921B33ED8800F3F64E;
+					};
+				};
+			};
+			buildConfigurationList = C0839B8E1B33ED8800F3F64E /* Build configuration list for PBXProject "棋牌计分" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0839B8A1B33ED8800F3F64E;
+			productRefGroup = C0839B941B33ED8800F3F64E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0839B921B33ED8800F3F64E /* 棋牌计分 */,
+				C0839BA71B33ED8800F3F64E /* 棋牌计分Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0839B911B33ED8800F3F64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0839B9E1B33ED8800F3F64E /* Main.storyboard in Resources */,
+				C0839BA31B33ED8800F3F64E /* LaunchScreen.xib in Resources */,
+				C0839BA01B33ED8800F3F64E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0839BA61B33ED8800F3F64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0839B8F1B33ED8800F3F64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0839B9B1B33ED8800F3F64E /* ViewController.swift in Sources */,
+				C0839B991B33ED8800F3F64E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0839BA41B33ED8800F3F64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0839BAF1B33ED8800F3F64E /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0839BAA1B33ED8800F3F64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0839B921B33ED8800F3F64E /* 棋牌计分 */;
+			targetProxy = C0839BA91B33ED8800F3F64E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0839B9C1B33ED8800F3F64E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0839B9D1B33ED8800F3F64E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0839BA11B33ED8800F3F64E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0839BA21B33ED8800F3F64E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0839BB01B33ED8800F3F64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0839BB11B33ED8800F3F64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0839BB31B33ED8800F3F64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "棋牌计分/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0839BB41B33ED8800F3F64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "棋牌计分/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0839BB61B33ED8800F3F64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "棋牌计分Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/棋牌计分.app/棋牌计分";
+			};
+			name = Debug;
+		};
+		C0839BB71B33ED8800F3F64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "棋牌计分Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/棋牌计分.app/棋牌计分";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0839B8E1B33ED8800F3F64E /* Build configuration list for PBXProject "棋牌计分" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0839BB01B33ED8800F3F64E /* Debug */,
+				C0839BB11B33ED8800F3F64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0839BB21B33ED8800F3F64E /* Build configuration list for PBXNativeTarget "棋牌计分" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0839BB31B33ED8800F3F64E /* Debug */,
+				C0839BB41B33ED8800F3F64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0839BB51B33ED8800F3F64E /* Build configuration list for PBXNativeTarget "棋牌计分Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0839BB61B33ED8800F3F64E /* Debug */,
+				C0839BB71B33ED8800F3F64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0839B8B1B33ED8800F3F64E /* Project object */;
+}
