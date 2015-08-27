@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D0913F96-D7C9-434F-965E-DAA8F163A736</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>棋牌计分</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>059D9B9C313A4E1F643470EB466F318BFB2801A6</key>
 		<string>github.com:zhuhaoyang/Score.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>棋牌计分.xcodeproj/project.xcworkspace</string>
+	<string>棋牌计分.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>059D9B9C313A4E1F643470EB466F318BFB2801A6</key>
