@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,7 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //友盟统计
+        MobClick.startWithAppkey("55c032ff67e58eb3f6000cc5", reportPolicy:BATCH, channelId:nil)
+        
+        let version:NSString = NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"] as! NSString
+        MobClick.setAppVersion(version as String)
+        
+        
+        //友盟社会化分享
+        UMSocialData.setAppKey("55c032ff67e58eb3f6000cc5")
+        
+        UMSocialWechatHandler.setWXAppId("wx5b4d8e93348a1687", appSecret: "666daa8e10d2cb2ad65e5c616e8f7580", url:"https://itunes.apple.com/cn/app/qi-pai-ji-fen-ma-jiang-pu/id1021525866?ls=1&mt=8")
+
+//        WXApi.registerApp("wx5b4d8e93348a1687", withDescription: version as String)
         return true
+    }
+    
+
+    //友盟回调
+    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
+        return UMSocialSnsService.handleOpenURL(url)
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        return UMSocialSnsService.handleOpenURL(url)
     }
 
     func applicationWillResignActive(application: UIApplication) {
